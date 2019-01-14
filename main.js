@@ -46,7 +46,8 @@ resetBtn.addEventListener("click", function () {
   colors = generateRandomColors(numOfSquares);
   pickedColor = pickColor();
   colorDisplay.textContent = pickedColor;
-  h1.style.backgroundColor = '#232323';
+  h1.style.backgroundColor = 'steelblue';
+  messageDisplay.textContent = "";
   for (let i = 0; i < squares.length; i++) {
     resetBtn.textContent = "New Colors";
     squares[i].style.backgroundColor = colors[i];
@@ -62,7 +63,7 @@ for (let i = 0; i < squares.length; i++) {
     let clickedColor = this.style.backgroundColor;
 
     if (clickedColor === pickedColor) {
-      messageDisplay.textContent = "Correct"
+      messageDisplay.textContent = "Correct!"
       resetBtn.textContent = "Play Again?";
       changeColors(clickedColor);
       h1.style.backgroundColor = clickedColor;
