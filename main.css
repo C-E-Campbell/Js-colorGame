@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(35, 35, 35);
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+
+.container {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.square {
+  width: 30%;
+  padding-bottom: 30%;
+  margin: 1.66%;
+  float: left;
+  border-radius: 10px;
+}
+
+.grey{
+  background-color: #232323;
+}
+
+#stripe{
+  background-color: #fff;
+  height: 30px;
+  text-align: center;
+}
+
+.selected{
+  background-color: rgb(39, 137, 228);
+}
+
