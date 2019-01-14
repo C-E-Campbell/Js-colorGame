@@ -9,6 +9,9 @@ let resetBtn = document.getElementById("resetBtn");
 let modeButtons = document.querySelectorAll(".mode");
 colorDisplay.textContent = pickedColor;
 
+
+
+
 for (let i = 0; i < modeButtons.length; i++) {
   modeButtons[i].addEventListener("click", function () {
     modeButtons[0].classList.remove("selected");
